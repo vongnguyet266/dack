@@ -1,0 +1,19 @@
+C:\Hcmus\LTWin\ChatServer\GameShow\bin\Debug\GameShow.exe.config
+C:\Hcmus\LTWin\ChatServer\GameShow\bin\Debug\GameShow.exe
+C:\Hcmus\LTWin\ChatServer\GameShow\bin\Debug\GameShow.pdb
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.csprojAssemblyReference.cache
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.Form1.resources
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.Properties.Resources.resources
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.csproj.GenerateResource.cache
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.csproj.CoreCompileInputs.cache
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.exe
+C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.pdb
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\bin\Debug\GameShow.exe.config
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\bin\Debug\GameShow.exe
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\bin\Debug\GameShow.pdb
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.Form1.resources
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.Properties.Resources.resources
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.exe
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.pdb
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.csprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+C:\Hcmus\LTWin\ChatServer\DemoThread\bin\Debug\DemoThread.exe.config
+C:\Hcmus\LTWin\ChatServer\DemoThread\bin\Debug\DemoThread.exe
+C:\Hcmus\LTWin\ChatServer\DemoThread\bin\Debug\DemoThread.pdb
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.csprojAssemblyReference.cache
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.Form1.resources
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.Properties.Resources.resources
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.csproj.GenerateResource.cache
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.csproj.CoreCompileInputs.cache
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.exe
+C:\Hcmus\LTWin\ChatServer\DemoThread\obj\Debug\DemoThread.pdb
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\bin\Debug\DemoThread.exe.config
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\bin\Debug\DemoThread.exe
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\bin\Debug\DemoThread.pdb
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\obj\Debug\DemoThread.Form1.resources
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\obj\Debug\DemoThread.Properties.Resources.resources
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\obj\Debug\DemoThread.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\obj\Debug\DemoThread.exe
+\\vmware-host\Shared Folders\Downloads\ChatServer-1\DemoThread\obj\Debug\DemoThread.pdb
