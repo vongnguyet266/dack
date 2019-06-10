@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\bin\Release\DemoThread.exe.config
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\bin\Release\DemoThread.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\bin\Release\DemoThread.pdb
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.Form1.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.pdb

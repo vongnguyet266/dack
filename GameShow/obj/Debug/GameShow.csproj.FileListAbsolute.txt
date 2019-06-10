@@ -17,3 +17,12 @@ C:\Hcmus\LTWin\ChatServer\GameShow\obj\Debug\GameShow.pdb
 \\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.exe
 \\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.pdb
 \\vmware-host\Shared Folders\Downloads\ChatServer-1\GameShow\obj\Debug\GameShow.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Debug\GameShow.exe.config
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Debug\GameShow.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Debug\GameShow.pdb
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.Form1.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Debug\GameShow.pdb

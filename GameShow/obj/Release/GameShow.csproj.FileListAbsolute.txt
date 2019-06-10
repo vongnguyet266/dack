@@ -1,0 +1,9 @@
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Release\GameShow.exe.config
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Release\GameShow.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\bin\Release\GameShow.pdb
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.Form1.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.exe
+\\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.pdb

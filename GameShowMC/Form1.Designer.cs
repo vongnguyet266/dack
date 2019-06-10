@@ -52,99 +52,111 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(435, 43);
+            this.label1.Size = new System.Drawing.Size(652, 66);
             this.label1.TabIndex = 2;
             this.label1.Text = "MC";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(12, 46);
+            this.btnConnect.Location = new System.Drawing.Point(18, 71);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(75, 23);
+            this.btnConnect.Size = new System.Drawing.Size(112, 35);
             this.btnConnect.TabIndex = 3;
-            this.btnConnect.Text = "Connect";
+            this.btnConnect.Text = "Create Server";
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
             // rtbQuestion
             // 
-            this.rtbQuestion.Location = new System.Drawing.Point(12, 88);
+            this.rtbQuestion.Location = new System.Drawing.Point(18, 135);
+            this.rtbQuestion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rtbQuestion.Name = "rtbQuestion";
-            this.rtbQuestion.Size = new System.Drawing.Size(411, 96);
+            this.rtbQuestion.Size = new System.Drawing.Size(614, 146);
             this.rtbQuestion.TabIndex = 4;
             this.rtbQuestion.Text = "";
             // 
             // txtA
             // 
-            this.txtA.Location = new System.Drawing.Point(32, 190);
+            this.txtA.Location = new System.Drawing.Point(48, 292);
+            this.txtA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtA.Name = "txtA";
-            this.txtA.Size = new System.Drawing.Size(177, 20);
+            this.txtA.Size = new System.Drawing.Size(264, 26);
             this.txtA.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 196);
+            this.label2.Location = new System.Drawing.Point(18, 302);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.Size = new System.Drawing.Size(20, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "A";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(226, 199);
+            this.label3.Location = new System.Drawing.Point(339, 306);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 13);
+            this.label3.Size = new System.Drawing.Size(20, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "B";
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(246, 193);
+            this.txtB.Location = new System.Drawing.Point(369, 297);
+            this.txtB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(177, 20);
+            this.txtB.Size = new System.Drawing.Size(264, 26);
             this.txtB.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 232);
+            this.label4.Location = new System.Drawing.Point(18, 357);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(14, 13);
+            this.label4.Size = new System.Drawing.Size(20, 20);
             this.label4.TabIndex = 10;
             this.label4.Text = "C";
             // 
             // txtC
             // 
-            this.txtC.Location = new System.Drawing.Point(32, 226);
+            this.txtC.Location = new System.Drawing.Point(48, 348);
+            this.txtC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtC.Name = "txtC";
-            this.txtC.Size = new System.Drawing.Size(177, 20);
+            this.txtC.Size = new System.Drawing.Size(264, 26);
             this.txtC.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(226, 231);
+            this.label5.Location = new System.Drawing.Point(339, 355);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(15, 13);
+            this.label5.Size = new System.Drawing.Size(21, 20);
             this.label5.TabIndex = 12;
             this.label5.Text = "D";
             // 
             // txtD
             // 
-            this.txtD.Location = new System.Drawing.Point(246, 225);
+            this.txtD.Location = new System.Drawing.Point(369, 346);
+            this.txtD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtD.Name = "txtD";
-            this.txtD.Size = new System.Drawing.Size(177, 20);
+            this.txtD.Size = new System.Drawing.Size(264, 26);
             this.txtD.TabIndex = 11;
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(15, 265);
+            this.btnSend.Location = new System.Drawing.Point(22, 408);
+            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(408, 23);
+            this.btnSend.Size = new System.Drawing.Size(612, 35);
             this.btnSend.TabIndex = 13;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -152,9 +164,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(113, 46);
+            this.button1.Location = new System.Drawing.Point(170, 71);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 35);
             this.button1.TabIndex = 14;
             this.button1.Text = "disconnect";
             this.button1.UseVisualStyleBackColor = true;
@@ -162,9 +175,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(214, 46);
+            this.button2.Location = new System.Drawing.Point(321, 71);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 23);
+            this.button2.Size = new System.Drawing.Size(192, 35);
             this.button2.TabIndex = 15;
             this.button2.Text = "Load Questions";
             this.button2.UseVisualStyleBackColor = true;
@@ -172,9 +186,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(349, 46);
+            this.button3.Location = new System.Drawing.Point(524, 71);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(112, 35);
             this.button3.TabIndex = 16;
             this.button3.Text = "Next";
             this.button3.UseVisualStyleBackColor = true;
@@ -182,9 +197,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 306);
+            this.ClientSize = new System.Drawing.Size(652, 471);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -200,6 +215,7 @@
             this.Controls.Add(this.rtbQuestion);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
