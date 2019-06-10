@@ -7,3 +7,12 @@
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShowMC\obj\Release\GameShowMC.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShowMC\obj\Release\GameShowMC.exe
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShowMC\obj\Release\GameShowMC.pdb
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\bin\Release\GameShowMC.exe.config
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\bin\Release\GameShowMC.exe
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\bin\Release\GameShowMC.pdb
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.csprojResolveAssemblyReference.cache
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.Form1.resources
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.Properties.Resources.resources
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.csproj.GenerateResource.Cache
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.exe
+C:\Users\Vong Nguyet\Desktop\dack\GameShowMC\obj\Release\GameShowMC.pdb

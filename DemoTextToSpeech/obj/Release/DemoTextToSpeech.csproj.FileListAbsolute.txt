@@ -1,0 +1,9 @@
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\bin\Release\DemoTextToSpeech.exe.config
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\bin\Release\DemoTextToSpeech.exe
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\bin\Release\DemoTextToSpeech.pdb
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.csprojResolveAssemblyReference.cache
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.Form1.resources
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.Properties.Resources.resources
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.csproj.GenerateResource.Cache
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.exe
+C:\Users\Vong Nguyet\Desktop\dack\DemoTextToSpeech\obj\Release\DemoTextToSpeech.pdb

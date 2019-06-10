@@ -7,3 +7,12 @@
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.exe
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\GameShow\obj\Release\GameShow.pdb
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\bin\Release\GameShow.exe.config
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\bin\Release\GameShow.exe
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\bin\Release\GameShow.pdb
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.csprojResolveAssemblyReference.cache
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.Form1.resources
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.Properties.Resources.resources
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.csproj.GenerateResource.Cache
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.exe
+C:\Users\Vong Nguyet\Desktop\dack\GameShow\obj\Release\GameShow.pdb

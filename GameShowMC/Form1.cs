@@ -16,6 +16,9 @@ namespace GameShowMC
 {
     public partial class Form1 : Form
     {
+        public int soCauTraLoiDung = 0;
+        int indexQuestion = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +28,26 @@ namespace GameShowMC
             //ServerSocket.Start();
 
             //TcpClient client = ServerSocket.AcceptTcpClient();
+
+            FormClosing += Form1_FormClosing;
+        }
+
+        void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (_ns != null)
+            {
+                _ns.Close();
+            }
+            if (_client != null)
+            {
+                _client.Close();
+            }
+
+            if (ServerSocket != null)
+            {
+                ServerSocket.Stop();
+            }
+
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -40,10 +63,11 @@ namespace GameShowMC
         void ConnectServer()
         {
             //create server
-             ServerSocket = new TcpListener(IPAddress.Any, 6000);
+            ServerSocket = new TcpListener(IPAddress.Any, 6000);
             ServerSocket.Start();
 
-             _client = ServerSocket.AcceptTcpClient();
+            _client = ServerSocket.AcceptTcpClient();
+            MessageBox.Show("Player connected!!");
 
             //IPAddress ip = IPAddress.Parse("127.0.0.1");
             //int port = 5000;
@@ -88,49 +112,109 @@ namespace GameShowMC
             string d = txtD.Text;
 
             string data = string.Format("{0}@@{1}@@{2}@@{3}@@{4}"
-                , question, a, b,c,d);
+                , question, a, b, c, d);
             byte[] buffer = Encoding.ASCII.GetBytes(data);
             _ns = _client.GetStream();
             _ns.Write(buffer, 0, buffer.Length);
+
+            ReceiverAnswer();
+        }
+
+        private void ReceiverAnswer()
+        {
+            NetworkStream ns = _client.GetStream();
+            byte[] receivedBytes = new byte[1024];
+            int byte_count;
+
+            while ((byte_count = ns.Read(receivedBytes, 0, receivedBytes.Length)) > 0)
+            {
+                string data = Encoding.ASCII.GetString(receivedBytes, 0, byte_count);
+
+                // kiem tra tra loi dung
+                Question question = _lstQuestions[indexQuestion - 1];
+
+                string correctAnswer = "";
+
+                foreach (Answer ans in question.ListAnswers)
+                {
+                    if (ans.Id == question.CorrectAnswerId)
+                    {
+                        correctAnswer = ans.Content;
+                        break;
+                    }
+                }
+
+                if (correctAnswer == data)
+                {
+                    soCauTraLoiDung++;
+                    MessageBox.Show("Chuc mung, ban da tra loi dung");
+                    break;
+                }
+                else
+                {
+                    string tmp = "Rat tiec, ban da tra loi sai. So cau dung cua ban la: " + soCauTraLoiDung;
+                    MessageBox.Show(tmp);
+                    break;
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //_client.Client.Shutdown(SocketShutdown.Send);
             //_thread.Join();
-            _ns.Close();
-            _client.Close();
-            ServerSocket.Stop();
+            //_ns.Close();
+            //_client.Close();
+            //ServerSocket.Stop();
+
+            if (_ns != null)
+            {
+                _ns.Close();
+            }
+            if (_client != null)
+            {
+                _client.Close();
+            }
+
+            if (ServerSocket != null)
+            {
+                ServerSocket.Stop();
+            }
+
         }
 
         List<Question> _lstQuestions;
         private void button2_Click(object sender, EventArgs e)
         {
             // Read a text file line by line.  
-            string path = @"\\vmware-host\Shared Folders\Desktop\questions.txt";
+            string path = @"C:\Users\Vong Nguyet\Desktop\dack\questions.txt";
             string[] lines = File.ReadAllLines(path);
 
             _lstQuestions = new List<Question>();
             Question question = null;
             foreach (string line in lines)
             {
-                if(line.StartsWith("@@"))//Question
+                if (line.StartsWith("@@"))//Question
                 {
                     question = new Question();
                     question.Content = line.Substring(2);
                 }
-                if(line.StartsWith("--"))//Image
+                if (line.StartsWith("--"))//Image
                 {
                     question.ImageLink = line.Substring(2);
                 }
                 if (line.StartsWith("$$"))//Answer
                 {
                     Answer answer = new Answer();
-                    string []M = line.Substring(2).Split(new char[] { '.' });
+                    string[] M = line.Substring(2).Split(new char[] { '.' });
                     answer.Id = M[0];
                     answer.Content = M[1];
 
                     question.ListAnswers.Add(answer);
+                }
+                if (line.StartsWith("&&"))
+                {
+                    question.CorrectAnswerId = line.Substring(2);
                 }
 
                 if (line.StartsWith("%%"))
@@ -140,10 +224,10 @@ namespace GameShowMC
             int a = 1;
         }
 
-        int index = 0;
+
         private void button3_Click(object sender, EventArgs e)
         {
-            Question question = _lstQuestions[index];
+            Question question = _lstQuestions[indexQuestion];
 
             rtbQuestion.Text = question.Content;
             txtA.Text = question.ListAnswers[0].Content;
@@ -151,7 +235,7 @@ namespace GameShowMC
             txtC.Text = question.ListAnswers[2].Content;
             txtD.Text = question.ListAnswers[3].Content;
 
-            index++;
+            indexQuestion++;
 
         }
     }

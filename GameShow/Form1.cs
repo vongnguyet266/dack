@@ -21,7 +21,10 @@ namespace GameShow
         {
             InitializeComponent();
 
-
+            btnA.Click+=btnAnswer_Click;
+            btnB.Click += btnAnswer_Click;
+            btnC.Click += btnAnswer_Click;
+            btnD.Click += btnAnswer_Click;
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -41,7 +44,7 @@ namespace GameShow
             _client = new TcpClient();
             _client.Connect(ip, port);
 
-            Console.WriteLine("client connected!!");
+            MessageBox.Show("client connected!!");
             _ns = _client.GetStream();
             _thread = new Thread(o => ReceiveData((TcpClient)o));
             _thread.Start(_client);
@@ -53,7 +56,7 @@ namespace GameShow
             //    ns.Write(buffer, 0, buffer.Length);
             //}
 
-            
+
         }
 
         void ReceiveData(TcpClient client)
@@ -72,7 +75,7 @@ namespace GameShow
                 if (M.Length > 0)
                 {
                     timer1.Enabled = true;
-                    lblQuestion.Invoke((MethodInvoker)(() 
+                    lblQuestion.Invoke((MethodInvoker)(()
                         => lblQuestion.Text = M[0]));
 
                     btnA.Invoke((MethodInvoker)(()
@@ -103,7 +106,7 @@ namespace GameShow
         private void button1_Click(object sender, EventArgs e)
         {
             var reader = new SpeechSynthesizer();
-            reader.SpeakAsync("I’m a programmer");
+            reader.SpeakAsync(lblQuestion.Text);
         }
 
         int seconds = 10;
@@ -114,9 +117,18 @@ namespace GameShow
             seconds--;
         }
 
-        private void btnA_Click(object sender, EventArgs e)
+        private void btnAnswer_Click(object sender, EventArgs e)
         {
+            Button revBtn = sender as Button;
 
+            string data = revBtn.Text;
+            byte[] buffer = Encoding.ASCII.GetBytes(data);
+            _ns = _client.GetStream();
+            _ns.Write(buffer, 0, buffer.Length);
+
+            _ns = _client.GetStream();
+            _thread = new Thread(o => ReceiveData((TcpClient)o));
+            _thread.Start(_client);
         }
     }
 }

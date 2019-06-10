@@ -7,3 +7,12 @@
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.exe
 \\vmware-host\Shared Folders\Desktop\Github DACK\dack\DemoThread\obj\Release\DemoThread.pdb
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\bin\Release\DemoThread.exe.config
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\bin\Release\DemoThread.exe
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\bin\Release\DemoThread.pdb
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.csprojResolveAssemblyReference.cache
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.Form1.resources
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.Properties.Resources.resources
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.csproj.GenerateResource.Cache
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.exe
+C:\Users\Vong Nguyet\Desktop\dack\DemoThread\obj\Release\DemoThread.pdb

@@ -88,7 +88,6 @@
             this.btnA.TabIndex = 3;
             this.btnA.Text = "A";
             this.btnA.UseVisualStyleBackColor = true;
-            this.btnA.Click += new System.EventHandler(this.btnA_Click);
             // 
             // btnB
             // 
